@@ -26,7 +26,8 @@
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
+# some folder need to be ignored
+Debug/*   #all the Debug folders need to be ignored
+
+!BIN/*
+  
